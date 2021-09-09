@@ -1,0 +1,7 @@
+services:
+  overload:
+    build: .
+    deploy:
+      resources:
+        limits:
+          cpus: 1
